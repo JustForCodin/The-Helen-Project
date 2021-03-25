@@ -1,7 +1,6 @@
 import speech_recognition as sr
 from gtts import gTTS
 import pyaudio
-import sklearn
 import os
 
 ########## ASSISTANT LOGIC   ##############
