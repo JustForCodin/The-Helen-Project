@@ -54,30 +54,6 @@ def assistant():
 		elif 'power off' in cmd:
 			os.system("poweroff")
 
-		elif 'do some calculation' in cmd:
-			speak('What should I calculate?')
-			##### CALCULATIONS STATEMENTS######
-			
-			if 'draw the function graph' in cmd:
-				speak('Enter your values please.')
-				#show the input form
-
-			elif 'sum' in cmd:
-				speak('Enter your values here')
-				#show the input form
-
-			elif 'substraction' in cmd:
-				speak('Enter your values here')
-				#showing the input form
-
-			elif 'multiplication' in cmd:
-				speak('Enter your values here')
-				#showing the input form
-
-			elif 'division' in cmd:
-				speak('Enter your values here')
-				#showing the input form
-
 	speak('I am ready for your command')
 
 	#### FOR A LONG TIME
